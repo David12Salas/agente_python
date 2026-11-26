@@ -18,9 +18,9 @@ pipeline {
             }
         }
 
-        stage('Ejecutar') {
+       stage('Ejecutar') {
     steps {
-        sh 'python3 -c "import Conversion; print(\"Modulo Conversion cargado correctamente\")"'
+        sh 'python3 -c "import Conversion; print(\'Modulo Conversion cargado correctamente\')"'
     }
 }
 
